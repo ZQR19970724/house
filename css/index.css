@@ -1,0 +1,237 @@
+section .banner {
+    background: url(../img/index/banner.png) no-repeat;
+    width: 100%;
+    height: 2.24rem;
+    background-size: 100%;
+    position: relative;
+}
+
+section .banner i {
+    background: url("../img/index/seach.jpg") no-repeat;
+    width: 0.2rem;
+    height: 0.2rem;
+    background-size: 100%;
+    bottom: 0.21rem;
+    margin: 0 0.23rem;
+    z-index: 999;
+    position: absolute;
+}
+
+section .banner input {
+    width: 2.82rem;
+    height: 0.35rem;
+    position: absolute;
+    bottom: 0.1rem;
+    background: #fff;
+    transform: translateX(-50%);
+    left: 50%;
+    border-radius: 0.08rem;
+    box-shadow: 0.03rem -0.03rem 0.02rem #9a9a9a, -0.02rem 0.04rem 0.02rem #dfdcdc;
+    text-indent: 0.3rem;
+    font-size: 0.14rem;
+    border: #ccc solid 0.03rem;
+    outline: none;
+    color: #9d9d9d;
+}
+
+section .icon {
+    height: 1.1rem;
+    font-size: 0;
+    background: #ff8a00;
+}
+section .icon .house_list {
+    font-size: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+section .icon ul li {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+
+}
+section .icon ul li a {
+   /* text-decoration: none; */
+   color: #fff;
+}
+
+section .icon ul li a img {
+    width: 0.54rem;
+    height: 0.55rem;
+}
+
+section .icon ul li a p {
+    font-size: 0.14rem;
+    line-height: 0.25rem;;
+    text-align: center;
+}
+section .pic{
+    /* margin-top: 0.1rem; */
+    padding: 0.1rem 0;
+    background: #f5f5f5;
+    font-size: 0;
+}
+section .pic img{
+    width: 100%;
+}
+section .banner_one .title{
+    padding:0 0.2rem ;
+    height: 0.61rem;
+    font-size: 0.16rem;
+    color: #fff;
+    background: #ff8a00;
+}
+section .banner_one ul{
+    width: 100%;
+    padding: 0 0.2rem;
+    box-sizing: border-box;
+}
+section .banner_one .hot_list li{
+    width: 100%;
+    font-size: 0;
+    height: 1.42rem;
+    border-bottom: 0.01rem solid red;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hot_list li:last-child{
+    border: none;
+}
+section .banner_one .hot_list li .left img{
+    width: 0.81rem;
+    height: 0.81rem;
+}
+.right{
+    font-size: 0.12rem;
+}
+.hot_list li .right h3 {
+    font-size: 0.18rem;
+    width: 1.87rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.hot_list li .right p{
+    line-height: .27rem;
+    font-size: 0.12rem;
+    overflow: hidden;
+}
+.strong{
+    color: #ff8a00;
+    float:right;
+}
+.span {
+    color: #999999;
+    float: right;
+}
+.hot_list li .right p a {
+    color: #849aae;
+    background: #f4f7f9;
+    padding: 0.02rem 0.04rem;
+}
+.bottom nav{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    font-size: 0.16rem;
+    border-bottom: 0.01rem solid #ff8a00;
+}
+.bottom nav p{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    height: 0.56rem;
+    /* color: #666; */
+}
+.bottom nav .active a{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    color: #ff8a00;
+    line-height: 0.56rem;
+    border-bottom: 0.02rem solid #ff8a00;
+}
+.bottom a{
+    color: #666;
+}
+
+.clear{
+    height: 0.1rem;
+    background: #f5f5f5;
+    box-sizing: border-box;
+}
+.bottom .content {
+    font-size: 0.12rem;
+    display: flex;
+}
+.bottom  .content ul {
+    flex: 1;
+    text-align: left;
+    margin: 0.12rem 0 0.12rem 0.2rem;
+}
+.bottom  .content ul li{
+    line-height: 0.28rem;
+}
+
+
+
+
+#download{
+    width: 100%;
+    height: 0.5rem;
+    background: rgba(0,0,0,0.5);
+    line-height: 0.5rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    padding-left: 0.2rem;
+}
+#download .close{
+    width: 0.14rem;
+    height: 0.15rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.downLeft{
+    display: flex;
+    justify-content: space-around;
+    flex: 6;
+    font-size: 0.12rem;
+    color: #fff;
+}
+.downLeft .icon img{
+    width: 0.3rem;
+    height: 0.3rem;
+    margin-top: 0.1rem;
+}
+.downLeft .text{
+    margin-top: -0.1rem;
+}
+.downLeft .text p:nth-of-type(1){
+    height: 0.18rem;
+    font-size: 0.18rem ;
+}
+
+.downLeft .text p:nth-of-type(2){
+     height: 0.12rem;
+}
+
+.downRight{
+    background: #ff8a00;
+    flex: 4;
+    line-height:0.5rem ;
+    font-size: 0.16rem;
+    text-align: center;
+}
+.downRight a{
+    color: #fff;
+}

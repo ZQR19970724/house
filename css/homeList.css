@@ -1,0 +1,151 @@
+body{
+    background: #f5f5f5;
+    /* width: 100%; */
+}
+.main .search{
+    font-size: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 0.62rem;
+    border-bottom: 0.01rem solid #ccc;
+}
+.main .search input{
+    width: 2.9rem;
+    height: 0.4rem;
+    background: #fff;
+    font-size: 0.12rem;
+    border-radius: 0.05rem;
+    border: 0.01rem solid #ccc;
+    outline: none;
+    text-indent: 0.1rem;
+    box-sizing: border-box;
+}
+.main .search p{
+    z-index: 999;
+    position: absolute;
+    font-size: 0.16rem;
+    right: 0.5rem;
+    color: #666;
+    /* font-style:normal; */
+}
+.main .search i{
+    background: url("../img/SecondHandList/search_03.png") no-repeat;
+    width: 0.2rem;
+    height: 0.24rem;
+    background-size: 100%;
+    right: 0.2rem;
+    z-index: 999;
+    position: absolute;
+}
+.list ul{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.01rem solid #ccc;
+}
+.list ul li{
+    display: flex;
+    font-size: 0.16rem;
+    flex: 1;
+    justify-content: center;
+    padding: 0.12rem 0;
+    color: #747774;
+    background: #fff;
+    border-bottom: 0.01rem solid 
+}
+.list ul li span{
+    color: #ccc;
+    font-size: 0.12rem;
+    position: absolute;
+}
+
+.list ul li .active{
+    color: #ff8a00;
+}
+.mask {
+    display: none;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    margin-top: 1.5rem;
+    position: absolute;
+    transition: all 1s;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.list .plan{
+   font-size: 0.2rem;
+}
+.list .plan div{
+    position: absolute;
+    width: 100%;
+    height: 3rem;
+    font-size: 0.3rem;
+    transition: all 1s;
+    display: none;
+}
+.list .reach{
+    background: rgb(116, 87, 194);
+}
+.list .price{
+    background: rgb(179, 58, 58);
+}
+.plan .home_model{
+    background-color: rgb(245, 221, 85);
+}
+.plan .more{
+    background-color: rgb(119, 28, 70);
+}
+
+
+
+.hot_list{
+    width: 100%;
+    padding: 0 0.2rem;
+    box-sizing: border-box;
+}
+.hot_list li{
+    width: 100%;
+    font-size: 0;
+    height: 1.42rem;
+    border-bottom: 0.01rem solid #ff8a00;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hot_list li:last-child{
+    border: none;
+}
+.hot_list li .left img{
+    width: 0.81rem;
+    height: 0.81rem;
+}
+.right{
+    font-size: 0.12rem;
+}
+.hot_list li .right h3 {
+    font-size: 0.14rem;
+    width: 1.87rem;
+    padding-bottom: 0.05rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.hot_list li .right p{
+    line-height: .2rem;
+    font-size: 0.12rem;
+    overflow: hidden;
+}
+.strong{
+    color: #ff8a00;
+    /* float:right; */
+}
+
+.hot_list li .right p:nth-child(3){
+    color: #ccc;
+}
+.hot_list li .right p:nth-child(4){
+    color: #ccc;
+}

@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #f5f5f5;
+}
+ul{
+    list-style: none;
+}
+header{
+    background: url('../img/my/bg1.png') no-repeat;
+    width: 100%;
+    height: 1.86rem;
+    top: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+header ul {
+    overflow: hidden;
+    float: right;
+}
+header ul li{
+    padding: 0.12rem 0.14rem;
+    float: left ;
+    text-align: center;
+    font-size: .12rem;
+    color: #fff;
+}
+header ul li img{
+    width: 0.14rem;
+    height: 0.15rem;
+    font-size: 0;
+}
+header nav {
+    margin-top: 0.6rem;
+    transform: translateX(-50%);
+    left: 50%;
+    position: absolute;
+    font-size: 0.12rem;
+    text-align: center;
+}
+header nav img{
+    width: 0.52rem;
+    height: 0.52rem;
+}
+header nav p{
+    padding: 0.05rem 0.2rem;
+    border: 0.01rem solid #fff;
+    color: #fff;
+}
+.main{
+    margin-top: 0.11rem;
+}
+.main ul li{
+    font-size: 0.12rem;
+    height: 0.48rem;
+    border-bottom: 0.01rem solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main ul{
+    background: #fff;
+    padding:0 0.2rem;
+}
+.left{
+    display: flex;
+}
+.left .pic{
+    width: 0.16rem;
+    height: 0.16rem;
+}
+.left p{
+    padding: 0 0.1rem;
+}
+.main ul li img{
+    width: 0.07rem;
+    height: 0.14rem;
+}
